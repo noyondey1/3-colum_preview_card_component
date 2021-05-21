@@ -23,7 +23,11 @@ body{
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--vltgray);
     color: var(--vltgray);
-    padding: 1.5rem;
+    padding: 7rem 1.5rem 6rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
@@ -37,6 +41,35 @@ h1{
 .card{
     border-radius: .5rem;
     overflow: hidden;
+    max-width: 54rem;
+}
+
+@media only screen and (min-width: 62.5rem) {
+    .card{
+        display: flex;
+    }
+
+    .card .sedans p{
+        font-size: 0.85rem;
+        font-weight: normal;
+        margin-bottom: 5rem;
+        padding-right: 1.5rem;
+    }
+    .card .suvs p{
+        font-size: 0.85rem;
+        font-weight: normal;
+        margin-bottom: 5rem;
+        padding-right: 1.5rem;
+    }
+    .card .luxury p{
+        font-size: 0.85rem;
+        font-weight: normal;
+        margin-bottom: 5rem;
+        padding-right: 1.5rem;
+    }
+
+    
+    
 }
 
 .card > *{
@@ -157,6 +190,7 @@ h1{
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--dkcyan);
 }
 
 .attribution a {
