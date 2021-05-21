@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root{
+    --orange: hsl(31, 77%, 52%);
+    --dkcyan: hsl(184, 100%, 22%);
+    --vdkcyan: hsl(179, 100%, 13%);
+    --tswhite: hsla(0, 0%, 100%, 0.75);
+    --vltgray: hsl(0, 0%, 95%);
+    --paddingX: 2.75rem;
+    --paddingY: 2.5rem;
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--vltgray);
+    color: var(--vltgray);
+    padding: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.card{
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.card > *{
+    padding: var(--paddingX) var(--paddingY);
+}
+
+/* 1st card */
+
+.sedans{
+    background-color: var(--orange);
+}
+
+.sedans h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.sedans p{
+    line-height: 1.75;
+    font-size: 0.95rem;
+    color: var(--tswhite);
+    margin-bottom: 1.75rem;
+}
+
+.sedans a{
+    background-color: var(--vltgray);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    color: var(--orange);
+    margin-top: 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.sedans a:hover{
+    background-color: transparent;
+    border: .125rem solid var(--vltgray);
+    color: var(--vltgray);
+}
+
+/* Second Card */
+.suvs{
+    background-color: var(--dkcyan);
+}
+
+.suvs h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.suvs p{
+    line-height: 1.75;
+    font-size: 0.95rem;
+    color: var(--tswhite);
+    margin-bottom: 1.75rem;
+}
+
+.suvs a{
+    background-color: var(--vltgray);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    color: var(--dkcyan);
+    margin-top: 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.suvs a:hover{
+    background-color: transparent;
+    border: .125rem solid var(--vltgray);
+    color: var(--vltgray);
+}
+
+/* Third Card */
+.luxury{
+    background-color: var(--vdkcyan);
+}
+
+.luxury h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.luxury p{
+    line-height: 1.75;
+    font-size: 0.95rem;
+    color: var(--tswhite);
+    margin-bottom: 1.75rem;
+}
+
+.luxury a{
+    background-color: var(--vltgray);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    color: var(--vdkcyan);
+    margin-top: 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.luxury a:hover{
+    background-color: transparent;
+    border: .125rem solid var(--vltgray);
+    color: var(--vltgray);
+}
+
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
