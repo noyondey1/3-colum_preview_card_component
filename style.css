@@ -9,7 +9,7 @@ html {
     box-sizing: inherit;
 }
 
-:root{
+:root {
     --orange: hsl(31, 77%, 52%);
     --dkcyan: hsl(184, 100%, 22%);
     --vdkcyan: hsl(179, 100%, 13%);
@@ -19,7 +19,7 @@ html {
     --paddingY: 2.5rem;
 }
 
-body{
+body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--vltgray);
     color: var(--vltgray);
@@ -30,72 +30,72 @@ body{
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
 }
 
-.card{
+.card {
     border-radius: .5rem;
     overflow: hidden;
     max-width: 54rem;
 }
 
 @media only screen and (min-width: 62.5rem) {
-    .card{
+    .card {
         display: flex;
     }
 
-    .card .sedans p{
-        font-size: 0.85rem;
-        font-weight: normal;
-        margin-bottom: 5rem;
-        padding-right: 1.5rem;
-    }
-    .card .suvs p{
-        font-size: 0.85rem;
-        font-weight: normal;
-        margin-bottom: 5rem;
-        padding-right: 1.5rem;
-    }
-    .card .luxury p{
+    .card .sedans p {
         font-size: 0.85rem;
         font-weight: normal;
         margin-bottom: 5rem;
         padding-right: 1.5rem;
     }
 
-    
-    
+    .card .suvs p {
+        font-size: 0.85rem;
+        font-weight: normal;
+        margin-bottom: 5rem;
+        padding-right: 1.5rem;
+    }
+
+    .card .luxury p {
+        font-size: 0.85rem;
+        font-weight: normal;
+        margin-bottom: 5rem;
+        padding-right: 1.5rem;
+    }
+
 }
 
-.card > *{
+.card>* {
     padding: var(--paddingX) var(--paddingY);
 }
 
 /* 1st card */
 
-.sedans{
+.sedans {
     background-color: var(--orange);
 }
 
-.sedans h1{
+.sedans h1 {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Big Shoulders Display', cursive;
 }
 
-.sedans p{
+.sedans p {
     line-height: 1.75;
     font-size: 0.95rem;
     color: var(--tswhite);
     margin-bottom: 1.75rem;
 }
 
-.sedans a{
+.sedans a {
     background-color: var(--vltgray);
     padding: 1rem 2rem;
     border-radius: 30px;
@@ -107,31 +107,31 @@ h1{
     transition: background-color 0.3s ease;
 }
 
-.sedans a:hover{
+.sedans a:hover {
     background-color: transparent;
     border: .125rem solid var(--vltgray);
     color: var(--vltgray);
 }
 
 /* Second Card */
-.suvs{
+.suvs {
     background-color: var(--dkcyan);
 }
 
-.suvs h1{
+.suvs h1 {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Big Shoulders Display', cursive;
 }
 
-.suvs p{
+.suvs p {
     line-height: 1.75;
     font-size: 0.95rem;
     color: var(--tswhite);
     margin-bottom: 1.75rem;
 }
 
-.suvs a{
+.suvs a {
     background-color: var(--vltgray);
     padding: 1rem 2rem;
     border-radius: 30px;
@@ -143,31 +143,31 @@ h1{
     transition: background-color 0.3s ease;
 }
 
-.suvs a:hover{
+.suvs a:hover {
     background-color: transparent;
     border: .125rem solid var(--vltgray);
     color: var(--vltgray);
 }
 
 /* Third Card */
-.luxury{
+.luxury {
     background-color: var(--vdkcyan);
 }
 
-.luxury h1{
+.luxury h1 {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Big Shoulders Display', cursive;
 }
 
-.luxury p{
+.luxury p {
     line-height: 1.75;
     font-size: 0.95rem;
     color: var(--tswhite);
     margin-bottom: 1.75rem;
 }
 
-.luxury a{
+.luxury a {
     background-color: var(--vltgray);
     padding: 1rem 2rem;
     border-radius: 30px;
@@ -179,7 +179,7 @@ h1{
     transition: background-color 0.3s ease;
 }
 
-.luxury a:hover{
+.luxury a:hover {
     background-color: transparent;
     border: .125rem solid var(--vltgray);
     color: var(--vltgray);
