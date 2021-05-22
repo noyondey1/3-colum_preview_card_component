@@ -97,7 +97,7 @@ h1 {
 
 .sedans a {
     background-color: var(--vltgray);
-    padding: 1rem 2rem;
+    padding: 15px 30px;
     border-radius: 30px;
     color: var(--orange);
     margin-top: 0;
@@ -105,11 +105,13 @@ h1 {
     border: none;
     outline: none;
     transition: background-color 0.3s ease;
+    position: relative;
+    height: 51px;
 }
 
 .sedans a:hover {
     background-color: transparent;
-    border: .125rem solid var(--vltgray);
+    border: 1px solid var(--vltgray);
     color: var(--vltgray);
 }
 
@@ -133,7 +135,7 @@ h1 {
 
 .suvs a {
     background-color: var(--vltgray);
-    padding: 1rem 2rem;
+    padding: 15px 30px;
     border-radius: 30px;
     color: var(--dkcyan);
     margin-top: 0;
@@ -141,11 +143,12 @@ h1 {
     border: none;
     outline: none;
     transition: background-color 0.3s ease;
+    height: 51px;
 }
 
 .suvs a:hover {
     background-color: transparent;
-    border: .125rem solid var(--vltgray);
+    border: 1px solid var(--vltgray);
     color: var(--vltgray);
 }
 
@@ -169,7 +172,7 @@ h1 {
 
 .luxury a {
     background-color: var(--vltgray);
-    padding: 1rem 2rem;
+    padding: 15px 30px;
     border-radius: 30px;
     color: var(--vdkcyan);
     margin-top: 0;
@@ -177,11 +180,12 @@ h1 {
     border: none;
     outline: none;
     transition: background-color 0.3s ease;
+    height: 51px;
 }
 
 .luxury a:hover {
     background-color: transparent;
-    border: .125rem solid var(--vltgray);
+    border: 1px solid var(--vltgray);
     color: var(--vltgray);
 }
 
